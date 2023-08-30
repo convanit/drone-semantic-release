@@ -1,4 +1,4 @@
-FROM timbru31/java-node:17-alpine-jdk-16
+FROM timbru31/java-node:17-alpine-jdk-18
 LABEL maintainer "convanit"
 
 ENV TIMEZONE=Europe/Berlin
