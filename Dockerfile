@@ -1,7 +1,7 @@
-FROM node:16-alpine
-LABEL maintainer "Lework <lework@yeah.net>"
+FROM timbru31/java-node:17-alpine-jdk-16
+LABEL maintainer "convanit"
 
-ENV TIMEZONE=Asia/Shanghai
+ENV TIMEZONE=Europe/Berlin
 
 ADD entrypoint.sh .releaserc /semantic-release/
 
